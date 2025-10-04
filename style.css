@@ -1,0 +1,99 @@
+body {
+    background-image: url("file:///Users/mompatimasiangoako/Downloads/81f51408-ceed-4dca-96fa-5a72726ad133.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+   
+}
+.glass {
+    background: rgba(59, 68, 110, 0.2); /* semi-transparent white */
+    border-radius: 15px;
+    padding: 30px 50px;
+    backdrop-filter: blur(5px);          /* frosted glass effect */
+    color: #fff;
+    height: 1000px;
+
+
+}
+.main {
+    position: relative;
+    color: aliceblue;
+    position: absolute;
+    bottom: 600px;
+    opacity: 100%;
+    font-size: 100px;
+    text-shadow:
+    0 0 5px rgba(194, 29, 7, 0.2),
+    0 0 10px rgba(219, 76, 10, 0.2),
+    0 0 20px rgba(246, 4, 4, 0.2),
+    0 0 40px rgba(236, 32, 1, 0.2);
+    overflow: hidden;
+    border-right: .24em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: 
+        typing 3.5s steps(40,end),
+        blink .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+}
+
+@keyframes blink {
+    from,to  {border-color: transparent }
+    50% {border-color: orange;}
+}
+.img {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    height: 500px;
+    box-shadow: 30px 30px 30px blueviolet;
+    width: 450px;
+
+}
+.Pj {
+    position: absolute;
+    bottom: 220px;
+    border-radius: 100%;
+    font-size: 35px;
+    background-color: navy;
+    border-top-left-radius: 100%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    outline: solid 3px blue;
+    outline-offset: 10px;
+    left: 100px;
+    box-shadow: 50px 50px 50px black;
+    
+}
+.pr {
+   position: absolute;
+    bottom: 40%;
+    left: 20%;
+    
+}
+.Pj1 {
+position: absolute;
+    bottom: 220px;
+    border-radius: 100%;
+    font-size: 35px;
+    background-color: navy;
+    border-top-left-radius: 100%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    outline: solid 3px blue;
+    outline-offset: 10px;
+    left: 450px;
+    box-shadow: 50px 50px 50px black;
+}
+.pr1 {
+  position: absolute;
+    bottom: 40%;
+    left: 20%;
+}
